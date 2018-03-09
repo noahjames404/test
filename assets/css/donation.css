@@ -1,0 +1,23 @@
+#checkout h1{
+  margin-top:100px;
+  text-align:center;
+  color:#666;
+}
+
+i.fa.fa-heart{
+  color:#e80f57;
+}
+
+#checkout p.text-center{
+  font-size:22px;
+  font-family:arial;
+  color:#aaa;
+}
+
+@media (max-width:767px) {
+  #checkout p.text-center{
+    text-align:justify;
+    font-size:18px;
+  }
+}
+

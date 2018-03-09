@@ -1,0 +1,57 @@
+form#add_developer h3{
+  font-weight:300;
+  text-align:center;
+}
+
+.add_form button.btn.btn-success{
+  margin-top:50px;
+}
+
+form#add_developer.add_form{
+  max-width:1000px;
+  border:1px solid #aaa;
+  padding:47px;
+  margin:0 auto;
+  border-radius:10px;
+  box-shadow:0 0 10px #aaa;
+}
+
+.add_form input.form-control{
+}
+
+.add_form div.input-group-addon{
+  width:15%;
+}
+
+.add_form div.input-group{
+  width:100%;
+}
+
+@media (max-width:991px) {
+  .add_form div.input-group-addon{
+    width:20%;
+  }
+}
+
+@media (max-width:767px) {
+  form#add_developer.add_form{
+    padding:0;
+    box-shadow:none;
+    border:none;
+  }
+}
+
+@media (max-width:767px) {
+  .add_form div.input-group-addon{
+    width:37%;
+  }
+}
+
+.add_form button.btn.btn-success{
+  width:300px;
+}
+
+p.p-center{
+  text-align:center;
+}
+

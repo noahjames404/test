@@ -1,0 +1,77 @@
+img#logo{
+  max-width:34px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+.navbar-default .navbar-nav > .active{
+  color:#fff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color:#fff;
+  background-color:#010101;
+}
+
+navbar nav a{
+  color:#903;
+}
+
+ul.nav.navbar-nav.navbar-right a:active{
+  color:#fff;
+}
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover{
+  border:1px solid #ddd;
+}
+
+navbar a{
+}
+
+navbar a{
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color:#903;
+  background-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#903;
+}
+
+body{
+  font-family:Arial,"Times New Roman",Times,serif;
+  font-size:16px;
+  line-height:1.42857143;
+  color:#333333;
+  background-color:#ffffff;
+}
+
+h1{
+  font-size:3em;
+  margin:0.67em 0;
+  font-weight:300;
+}
+
+div#carousel-1.carousel.slide .item{
+}
+
+.page-header h1{
+  font-weight:300;
+  display:initial;
+}
+
+.page-header{
+  padding-bottom:10px;
+  margin:44px 0 22px;
+  border:none;
+}
+
+#div.input-group-addon{
+}
+
+.text-past{
+  font-family:'Fredericka the Great';
+}
+

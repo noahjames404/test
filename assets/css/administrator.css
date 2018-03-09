@@ -1,0 +1,18 @@
+a.navbar-brand.navbar-link{
+  color:#903;
+  word-spacing:17px;
+  border-right:6px double;
+}
+
+div#dashboard h1{
+  font-size:38px;
+}
+
+div#dashboard h1 span{
+  font-family:arial;
+}
+
+.red-border{
+  border-left:8px solid #903;
+}
+

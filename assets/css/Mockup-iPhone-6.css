@@ -1,0 +1,61 @@
+div.iphone-mockup{
+  position:relative;
+  max-width:350px;
+  margin:20px;
+  margin:0 auto;
+  margin-top:-286px;
+  transform:rotate(90deg);
+}
+
+.iphone-mockup img.device{
+  width:168%;
+  height:auto;
+}
+
+.iphone-mockup .screen{
+  position:absolute;
+  width:125%;
+  height:44.4%;
+  top:25.5%;
+  border-radius:2px;
+  left:23.7%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url("../../assets/img/pic2.png");
+  background-size:cover;
+  transform:rotate(270deg);
+  background-position:center;
+}
+
+.iphone-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+div.embed-responsive.embed-responsive-16by9{
+  position:absolute;
+  left:38%;
+  width:96.6%;
+  height:19px;
+  top:31.1%;
+  background:#000;
+  transform:rotate(270deg) scale(1.29);
+}
+
+img.device{
+}
+
+@media (max-width:991px) {
+  div.iphone-mockup{
+    display:none;
+  }
+}
+
